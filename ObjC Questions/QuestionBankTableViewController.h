@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  QuestionBankTableViewController.h
 //  ObjC Questions
 //
 //  Created by Shark on 2015-07-25.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface QuestionBankTableViewController : UITableViewController
 
 @end
-

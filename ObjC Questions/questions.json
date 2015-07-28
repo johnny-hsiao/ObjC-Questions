@@ -1,0 +1,125 @@
+{
+	"items": [
+		{
+			"question_number": 1,
+			"question": "Explain what objective-C program basically consists of?",
+			"answer": "Objective-C program basically consists of: Preprocessor commands, Interface, Implementation, Method, Variables, Statements & Expressions, Comments"
+		},
+		{
+			"question_number": 2,
+			"question": "Explain what is OOP?",
+			"answer": "OOP means Object Oriented Programming; it is a type of programming technique that helps to manage a set of objects in a system. With the help of various programming languages, this method helps to develop several computer programs and applications."
+		},
+		{
+			"question_number": 3,
+			"question": "Explain what is the protocol in Objective C?",
+			"answer": "In Objetive-C, a protocol is a language feature, that provides multiple inheritances in a single inheritance language.  Objective C supports two types of protocol. 1) Ad hoc protocols known as informal protocol; 2) Explain what is the difference between polymorphism and abstraction?Compiler protocols known as a formal protocol"
+		},
+		{
+			"question_number": 4,
+			"question": "Explain what is the difference between polymorphism and abstraction?",
+			"answer": "Abstraction in OOP is the process of reducing the unwanted data and maintaining only the relevant data for the users while polymorphism enables an object to execute their functions in two or more forms."
+		},
+		{
+			"question_number": 5,
+			"question": "Explain what is parsing and mention which class can we use for passing of XML in iphone?",
+			"answer": "Parsing is the process referred to access the data in the XML element. We can use class “NSXML” parser for passing XML in iphone."
+		},
+		{
+			"question_number": 6,
+			"question": "Mention which class are used to establish a connection between applications to the web server?",
+			"answer": "The class used to establish connection between applications to web server are: 1) NSURL; 2) NSURL REQUEST; 3) NSURL CONNECTION"
+		},
+		{
+			"question_number": 7,
+			"question": "Explain what is an accessor methods?",
+			"answer": "Accessor methods are methods belonging to a class that enables you to get and set the values of instance valuable contained within the class."
+		},
+		{
+			"question_number": 8,
+			"question": "Explain what is #import?",
+			"answer": "#import is a C pre-processor construct to avoid multiple inclusions of the same file."
+		},
+		{
+			"question_number": 9,
+			"question": "List out the methods used in NSURL connection?",
+			"answer": "Methods used in NSURL connection are 1) Connection did receive response; 2) Connection did receive data; 3) Connection fail with error; 4) Connection did finish loading"
+		},
+		{
+			"question_number": 10,
+			"question": "Explain class definition in Objective-C?",
+			"answer": "A class definition begins with the keyword @interface followed by the interface (class) name, and the class body, closed by a pair of curly braces.  In Objective-C, all classes are retrieved from the base class called NSObject. It gives basic methods like memory allocation and initialization."
+		},
+		{
+			"question_number": 11,
+			"question": "Mention what is the use of category in Objective-C?",
+			"answer": "The use of category in Objective-C is to extend an existing class by appending behavior that is useful only in certain situations. In order to add such extension to existing classes, objective –C provides extensions and categories. The syntax used to define a category is @interface keyword."
+		},
+		{
+			"question_number": 12,
+			"question": "Explain what are the characteristics of the category?",
+			"answer": "Characteristics of category includes: 1) Even if you don’t have the original source code for implementation, a category can be declared for any class; 2) Any methods that you define in a category will be available to all instances of the original class as well as any sub-classes for the original class; 3) At runtime, there is no variation between a method appended by a category and one that is implemented by the original class"
+		},
+		{
+			"question_number": 13,
+			"question": "Explain what is single inheritance in Objective-C?",
+			"answer": "Objective-c subclass can only be obtained from a single direct parent class this concept is known as “single inheritance” ."
+		},
+		{
+			"question_number": 14,
+			"question": "Explain what is polymorphism in Objective-C?",
+			"answer": "Polymorphism in Objective-C is referred to a capability of base class pointer to call the function."
+		},
+		{
+			"question_number": 15,
+			"question": "Explain when to use NSArray and NSMutableArray?",
+			"answer": "1) NSArray: You will use an NS array when data in the array don’t change. For example, the company name you will put in NS Array so that no one can manipulate it. 2) NSMutableArray: This array will be used in an array, when data in an array will change. For instance, if you are passing an array to function and that function will append some elements in that array then you will choose NSMutable Array."
+		},
+		{
+			"question_number": 16,
+			"question": "Explain what is synthesized in Objective-C?",
+			"answer": "Once you have declared the property in objective-C, you have to tell the compiler instantly by using synthesize directive.  This will tell the compiler to generate a getter&setter message."
+		},
+		{
+			"question_number": 17,
+			"question": "Explain how string is represented in Objective-C?",
+			"answer": "In Objective-C, string is represented by using NSString and its sub-class NSMutableString provides several ways for creating string objects."
+		},
+		{
+			"question_number": 18,
+			"question": "Explain what is data encapsulation in Objective-C?",
+			"answer": "In Objective-C, data encapsulation is a mechanism of bundling the data and the functions that use them."
+		},
+		{
+			"question_number": 19,
+			"question": "Explain what are Objective-C blocks?",
+			"answer": "In Objective-C class, there is an object that combines data with related behavior.  It enables you to form distinct segments of code that can be passed around to functions or methods as if they were values.  Objective-C blocks can be added to collections like NSDictionary or NSArray."
+		},
+		{
+			"question_number": 20,
+			"question": "Explain what is the main difference between the function calls and messages?",
+			"answer": "The main difference between function call and message is that a function and its arguments are linked together in the compiled code, but a message and a receiving object are not linked  until the program is executing and the message is sent."
+		},
+		{
+			"question_number": 21,
+			"question": "Explain how messaging works in Objective-C?",
+			"answer": "Messaging are not bound to method implementation until runtime in Objective-C. The compiler transforms a message expression, into a call on a messaging function, objc_msgSend().  This function connects the receiver and the name of the method mentioned in the message."
+		},
+		{
+			"question_number": 22,
+			"question": "Explain how the class “IMPLEMENTATION” is represented in Objective-C?",
+			"answer": "In Objective-C the class “ IMPLEMENTATION” is represented with @implementation directive and ends with @end."
+		},
+		{
+			"question_number": 23,
+			"question": "Explain what is dot notation?",
+			"answer": "Dot notation involves assessing an instance variable by determining a class “instance” followed by a “dot” followed in turn by the name of instance variable or property to be accessed."
+		},
+		{
+			"question_number": 24,
+			"question": "Mention whether NS object is a parent class or derived class?",
+			"answer": "NS object is the parent class and consists of a number of instance variables and instance methods."
+		},
+	]
+}
+
